@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Cheat Sheet</title>
+</head>
+
+<body>
+
+    <a href="./blog.html">Blog posts</a>
+    <hr>
+
+    <!-- Headers -->
+    <h1>Header One</h1>
+    <h2>Header Two</h2>
+    <h3>Header Three</h3>
+    <h4>Header Four</h4>
+    <h5>Header Five</h5>
+    <h6>Header Six</h6>
+
+    <!-- Paragraphs-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis veniam voluptatum <strong>aperiam</strong>
+        iusto ipsa repudiandae reprehenderit a soluta <em>voluptatibus similique, hic incidunt accusamus corporis</em>
+        in dolorum amet quas dolore ex!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi aliquam, voluptatibus, <a href="https://google.dk"
+            target="_blank">Google</a> a est autem tenetur culpa vel fugiat et excepturi accusantium maxime ea quidem
+        commodi ex corrupti non alias!</p>
+
+    <!-- Lists unordered and ordered-->
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+    <ol>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+
+    <!-- Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pierre Fawcett</td>
+                <td>pfa@somewhere.com</td>
+                <td>57</td>
+            </tr>
+            <tr>
+                <td>Erik Rettke</td>
+                <td>erika@somewhere.com</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>Pia Andersen</td>
+                <td>piaa@somewhere.com</td>
+                <td>48</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Forms -->
+    <form action="index.html" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="Enter First name">
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lasttName">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="eMail">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option name="male">Male</option>
+                <option name="female" selected>Female</option>
+                <option name="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Age</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>Birthday</label>
+            <input type="date" name="birtday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <br>
+
+    <!-- Button outside a form -->
+    <button onClick="alert('This Is Java Script');">Click Me</button>
+    <br>
+    <br>
+
+    <!-- Images -->
+    <img src=".\Images\sample.jpg" alt="Hartman">
+
+    <!-- You can put an image tag inside a link -->
+    <a href=".\Images\sample.jpg"><img src=".\Images\sample.jpg" alt="Hartman"></a>
+    <br>
+    <!-- Quotations -->
+    <blockquote site="https://google.dk">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, amet vel expedita odio a dolorem tempora
+        corporis quas voluptatum ea blanditiis, quidem consequatur, adipisci enim esse? Repudiandae eius facere
+        suscipit.
+    </blockquote>
+    <p>The <abbr title="World Wide Web">WWW</abbr> is very awsome</p>
+
+    <p>HTML <cite>crash course</cite> by Brad Traversy</p>
+
+    <!-- HTML 5 Semantic Tags 
+    <header></header>
+    <footer></footer>
+    <aside></aside>
+    <main></main>
+    <article></article>
+    <nav></nav>
+    <section></section>
+    <details></details>
+    -->
+
+</body>
+
+</html>
